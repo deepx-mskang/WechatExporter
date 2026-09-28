@@ -1,0 +1,41 @@
+{
+  "target_room_keywords": [
+    "project",
+    "partner",
+    "tech"
+  ],
+  "distributors": {
+    "Partner_Channel_A": {
+      "alias": "Channel A (Regional Distributor A)",
+      "keywords": ["channel_a", "dist_a"],
+      "member_signatures": ["fae_alpha", "rep_a"],
+      "extra_room_keywords": ["client_alpha"]
+    },
+    "Partner_Channel_B": {
+      "alias": "Channel B (Regional Distributor B)",
+      "keywords": ["channel_b", "dist_b"],
+      "member_signatures": ["fae_beta", "rep_b"],
+      "extra_room_keywords": ["client_beta"]
+    },
+    "HQ(direct)": {
+      "alias": "HQ (Direct Strategic Accounts & Internal Teams)",
+      "keywords": [],
+      "member_signatures": []
+    }
+  },
+  "hq_fixed_customers": [
+    "Strategic_Client_1",
+    "Strategic_Client_2"
+  ],
+  "hq_hold_keywords": [
+    "pending_evaluation"
+  ],
+  "customer_overrides": {
+    "Internal_R&D": ["internal_dev", "core_rnd"],
+    "Sample_Client": ["sample_client", "eval_pjt"]
+  },
+  "room_annotations": {
+    "internal_dev": "Internal Development Team Room",
+    "sample_client": "Sample Client Joint Evaluation TF"
+  }
+}

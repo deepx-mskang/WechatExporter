@@ -428,3 +428,26 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+
+# Build & Xcode outputs
+build/
+DerivedData/
+
+# Custom Rules & Data Archives (Privacy Protection)
+rules.json
+config.json
+organize_*_chats.py
+output*/
+*.tar
+*.tar.gz
+*.txt
+*.log
+
+
